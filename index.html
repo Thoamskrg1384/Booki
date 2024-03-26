@@ -18,6 +18,8 @@
 
 <body>
     <div class="main-container">
+
+        // Header comprenant la NavBar, le H1, la localisation et les filtres
         <header class="header-booki">
             <nav class="header-nav">
                 <a href="/save.html" class="logo">
@@ -42,11 +44,12 @@
                 <div class="location">
                     <i class="fa-solid fa-black fa-location-dot"></i>
                 </div>
-                <input class="input-searchBar" type="search" value ="Marseille, France">
-                <button class="searchBarButton" type="submit"><i class="fa-solid fa-white fa-magnifying-glass"></i><span class="searchBarButton-text">Rechercher</span></button>
+                <input class="input-searchBar" type="search" value="Marseille, France">
+                <button class="searchBarButton" type="submit"><i class="fa-solid fa-white fa-magnifying-glass"></i><span
+                        class="searchBarButton-text">Rechercher</span></button>
             </form>
 
-            <div class="filterStyle">
+            <div class="filterStyle"> // Conteneur avec les differents boutons des filtres
                 <p class="filter-title">Filtres</p>
                 <div class="filter-buttons">
                     <button class="cta">
@@ -76,8 +79,14 @@
             </div>
         </header>
 
+        //
+        ---------------------------------------------------------------------------------------------------------------------------
         <main>
+
+            // Balise div englobant les deux deux sessions Hébergements et Activités
             <div class="hebergements-and-populaires">
+
+                // Section hébergement à Marseille
                 <section id="ancre-hebergements" class="hebergements">
                     <header>
                         <h2 class="section-title">Hébergements à Marseille</h2>
@@ -233,6 +242,9 @@
                     </footer>
                 </section>
 
+                //
+                ---------------------------------------------------------------------------------------------------------------------------
+                //Section populaires
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -243,7 +255,7 @@
                             <article class="card">
                                 <div class="card-figure">
                                     <img src="./images/hebergements/emile-guillemot.jpg"
-                                    alt="Image de la chambre d'hôtel montrant un lit">
+                                        alt="Image de la chambre d'hôtel montrant un lit">
                                 </div>
                                 <div class="card-content">
                                     <div class="card-txt">
@@ -267,7 +279,7 @@
                             <article class="card">
                                 <div class="card-figure">
                                     <img src="./images/hebergements/aw-creative.jpg"
-                                    alt="Image de la chambre d'hôtel montrant un lit">
+                                        alt="Image de la chambre d'hôtel montrant un lit">
                                 </div>
                                 <div class="card-content">
                                     <div class="card-txt">
@@ -293,7 +305,7 @@
                             <article class="card">
                                 <div class="card-figure">
                                     <img src="./images/hebergements/febrian-zakaria2.jpg"
-                                    alt="Image de la chambre d'hôtel montrant un lit">
+                                        alt="Image de la chambre d'hôtel montrant un lit">
                                 </div>
                                 <div class="card-content">
                                     <div class="card-txt">
@@ -317,6 +329,10 @@
                 </section>
             </div>
 
+            //
+            ---------------------------------------------------------------------------------------------------------------------------
+
+            // Section activités à Marseille
             <section id="ancre-activites" class="activites">
                 <header>
                     <h2 class="activites-title">Activités à Marseille</h2>
@@ -367,10 +383,12 @@
                         </a>
                     </article>
                 </div>
-
-
             </section>
         </main>
+
+        //
+        ---------------------------------------------------------------------------------------------------------------------------
+        // Footer
         <footer class="footer-list">
             <div class="footer-div">
                 <p class="title-list">À propos</p>

@@ -1,4 +1,5 @@
 /****** General ***********/
+
 * {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
@@ -62,6 +63,9 @@ a {
   padding: 30px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Style général des cartes */
+
 .card {
   background-color: white;
   border-radius: 20px;
@@ -90,7 +94,9 @@ a {
   color: var(--main-bg-color);
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Header et Nav */
+
 .header-booki {
   width: 100%;
   padding: 0 50px;
@@ -309,88 +315,9 @@ a {
   margin: 0;
 }
 
-/*Footer*/
-
-.footer-div {
-  display: flex;
-  flex-direction: column;
-  line-height: 15px;
-}
-
-.directionRow {
-  display: flex;
-  flex-direction: row;
-}
-
-.title-list {
-  margin: 0 0 15px 0;
-}
-
-.list {
-  margin: 0 0 15px 0;
-}
-
-.a-propos-list {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px;
-  margin: 0 0 15px 0;
-}
-
-.a-propos-list a:hover {
-  text-decoration: underline 2px solid black;
-}
-
-.nos-hebergements-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
-}
-
-.nos-hebergements-list a:hover {
-  text-decoration: underline 2px solid black;
-}
-
-.nos-hebergements-list {
-  margin: 0 0 15px 0;
-}
-
-.assistance-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 10px;
-  margin: 0 0 15px 0;
-}
-
-.assistance-list a:hover {
-  text-decoration: underline 2px solid black;
-}
-
-.footer-list {
-  background-color: var(--main-bg-color);
-
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-
-  height: 100%;
-  margin: 0 50px 58px 50px;
-}
-
-.title-list {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.footer-div .list {
-  font-size: 16px;
-}
-.footer-div {
-  width: calc(100% / 3);
-  padding: 20px;
-}
-
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
@@ -466,7 +393,9 @@ a {
   margin-bottom: 5px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /****** Populaires ***********/
+
 .populaires {
   background-color: var(--main-bg-color);
   width: 35%;
@@ -597,10 +526,94 @@ a {
   margin: 0;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Footer*/
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+}
+
+.directionRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-list {
+  margin: 0 0 15px 0;
+}
+
+.list {
+  margin: 0 0 15px 0;
+}
+
+.a-propos-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  margin: 0 0 15px 0;
+}
+
+.a-propos-list a:hover {
+  text-decoration: underline 2px solid black;
+}
+
+.nos-hebergements-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.nos-hebergements-list a:hover {
+  text-decoration: underline 2px solid black;
+}
+
+.nos-hebergements-list {
+  margin: 0 0 15px 0;
+}
+
+.assistance-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+  margin: 0 0 15px 0;
+}
+
+.assistance-list a:hover {
+  text-decoration: underline 2px solid black;
+}
+
+.footer-list {
+  background-color: var(--main-bg-color);
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  height: 100%;
+  margin: 0 50px 58px 50px;
+}
+
+.title-list {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-div .list {
+  font-size: 16px;
+}
+.footer-div {
+  width: calc(100% / 3);
+  padding: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
   .header-text {
     font-size: 16px;
@@ -691,7 +704,9 @@ a {
   }
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Breakpoint transition Medium devices/Small devices (less/equal than 824px) */
+
 @media (max-width: 824px) {
   .searchBar {
     width: calc(100% - 10px);
@@ -764,7 +779,10 @@ a {
     font-weight: bold;
   }
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
   body {
     margin: 0;
@@ -1116,7 +1134,9 @@ a {
   }
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Breakpoint Small devices (less/equal than 361px) */
+
 @media (max-width: 361px) {
   .filter-buttons {
     display: flex;
